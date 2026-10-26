@@ -1,4 +1,4 @@
-# AI Agile Product Manager Helper
+# Agile Product Manager
 
 A portable, Markdown-first AI marketplace plugin for building an outcome-led engineering and platform backlog in Azure DevOps Boards.
 
