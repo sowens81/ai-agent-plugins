@@ -1,0 +1,12 @@
+# Quality gates
+- Why, what and verification are clear.
+- Outcome-led; technology named only where required.
+- Story-specific acceptance criteria are observable, not tasks.
+- Usually 3–6 concise criteria, with no repeated team Definition of Done.
+- Scope and exclusions make the boundary clear.
+- Dependencies and parents verified by ID.
+- Priority 1–4 and size explicitly chosen, never guessed.
+- Markdown content is clean and separate by field.
+- Draft and exact mutations approved before writing.
+- After publishing, item and links re-read and verified.
+- Content of board items description and criteria is direct and not overly verbose

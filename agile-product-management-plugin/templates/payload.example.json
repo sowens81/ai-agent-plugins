@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "System.Title": "Standardise AKS workload resources",
+    "System.AreaPath": "YOUR_PROJECT",
+    "System.IterationPath": "YOUR_PROJECT",
+    "Microsoft.VSTS.Common.Priority": 2
+  },
+  "markdown_fields": {
+    "System.Description": "**Objective**\nProvide standard workload resource configuration.\n\n**Context**\nCurrent configuration is inconsistent.",
+    "Microsoft.VSTS.Common.AcceptanceCriteria": "1. Workloads have default requests and limits.\n2. Teams can override defaults.\n3. Resource usage is observable."
+  },
+  "relations": []
+}
