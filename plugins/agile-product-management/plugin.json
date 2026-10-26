@@ -3,5 +3,8 @@
   "name": "agile-product-manager",
   "version": "0.1.0",
   "description": "Outcome-led engineering backlog authoring and Azure DevOps Boards workflows.",
-  "keywords": ["agile", "product-management", "azure-devops", "backlog"]
+  "keywords": ["agile", "product-management", "azure-devops", "backlog"],
+  "author": {"name": "Steven Owens", "url": "https://github.com/sowens81/"},
+  "homepage": "",
+  "license": "MIT"
 }
