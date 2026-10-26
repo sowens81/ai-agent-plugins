@@ -6,6 +6,8 @@ description: "Create or update outcome-led User Stories in Azure DevOps. Use whe
 # Story authoring
 **Trigger:** Create or update a User Story in Azure DevOps.
 
+Before drafting, read `.github/agile-product-manager/ado-board-settings.md`. Use `System.WorkItemType` as the User Story work item type and `System.State` as its initial state for a new item; these are separate settings. Use `System.AreaPath` and `System.IterationPath` as defaults, and `Team Name` as context only. Validate the configured values for the target project/process; ask if missing or invalid. Do not overwrite type or state on an existing item unless requested.
+
 1. Ask **new or update**. For update obtain ID, fetch item, preserve fields/links not explicitly changed.
 2. Ask 5–10 qualifying questions, adapt to known information: who benefits (or direct technical objective); what changes; current problem; expected outcome; in/out of scope; success evidence; constraints; environments; impact on existing consumers; dependencies. Follow up only where outcome remains unclear.
 3. Ask user to select priority **1 / 2 / 3 / 4** (1 highest). 

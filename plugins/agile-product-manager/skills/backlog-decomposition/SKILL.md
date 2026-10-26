@@ -5,6 +5,8 @@ description: "Break down Azure DevOps Epics into Features and Stories, or Featur
 
 # Backlog decomposition
 **Triggers:** Epic -> Features + Stories; Feature -> Stories.
+Read `.github/agile-product-manager/ado-board-settings.md` before planning or creating children. Use `System.AreaPath` and `System.IterationPath` as defaults only after validating them for the target project. For each new Epic, Feature, or User Story, take `System.WorkItemType` and `System.State` from its matching `Epic Board Item`, `Feature Board Item`, or `User Story Board Item` section. Validate these mappings for the target project's process; if a section is missing or a setting invalid, ask rather than borrow another type's values or guess.
+
 1. Retrieve source work item by ID, including current children, relations, scope and acceptance criteria.
 2. Clarify intended outcomes, boundaries, consumer journeys, platform constraints and delivery sequencing. Do not duplicate existing child items.
 3. Suggest a compact hierarchy: Epic > Features > Stories; Feature > Stories. Stories should be independently verifiable slices, not infrastructure tasks masquerading as stories.
