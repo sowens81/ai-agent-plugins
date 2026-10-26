@@ -5,7 +5,7 @@
   "description": "Outcome-led engineering backlog authoring and Azure DevOps Boards workflows.",
   "keywords": ["agile", "product-management", "azure-devops", "backlog"],
   "author": {"name": "Steven Owens", "url": "https://github.com/sowens81/"},
-  "homepage": "https://github.com/sowens81/ai-agent-plugins/blob/main/plugins/agile-product-management/README.md",
-  "repository": "https://github.com/sowens81/ai-agent-plugins/tree/main/plugins/agile-product-management",
+  "homepage": "https://github.com/sowens81/sowens81-ai-plugins/blob/main/plugins/agile-product-manager/README.md",
+  "repository": "https://github.com/sowens81/sowens81-ai-plugins/tree/main/plugins/agile-product-manager",
   "license": "MIT"
 }

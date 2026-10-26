@@ -42,4 +42,4 @@ The CLI reads `ADO_ORG_URL` and `ADO_PROJECT` environment variables; `--json` is
 
 ## Design principles
 
-Outcome-first with justified implementation constraints; 3–6 observable acceptance criteria; no forced persona for technical work; technical tasks separated from story outcomes; shared Definition of Done; concise UK English. Use Given/When/Then only for behavioural workflows.
+Outcome-first with justified implementation constraints; 3–6 observable acceptance criteria; no forced persona for technical work; technical tasks separated from story outcomes; shared Definition of Done; concise UK English. Use Given/When/Then only for behavioral workflows.

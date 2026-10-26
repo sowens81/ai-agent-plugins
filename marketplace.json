@@ -1,0 +1,20 @@
+{
+  "name": "sowens81-ai-plugins",
+  "owner": {
+    "name": "Steven Owens",
+    "url": "https://github.com/sowens81",
+    "github": "sowens81"
+  },
+  "metadata": {
+    "description": "A set of AI Plugins focused on Platform Engineering, Azure and Product Management based on Agile Delivery.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agile-product-manager",
+      "description": "Outcome-led engineering backlog authoring and Azure DevOps Boards workflows.",
+      "version": "1.0.0",
+      "source": "./plugins/agile-product-manager"
+    }
+  ]
+}
