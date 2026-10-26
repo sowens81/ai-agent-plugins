@@ -1,8 +1,24 @@
 # {Epic title}
 
-**Objective:** {Strategic outcome and beneficiary}
-**Context:** {Why now}
-**Scope:** {Included / excluded capabilities}
-**Success measures:** {Observable impact; agreed baseline/target if known}
-**Constraints and dependencies:** {Only material items}
-**Exit criteria:** {2–5 high-level, verifiable outcomes}
+## Strategic outcome
+
+{Engineering or organisational improvement to achieve, and who or what benefits.}
+
+## Why this matters
+
+{Problem or opportunity and why the improvement is important now.}
+
+## Measures of success
+
+| Measure | Baseline | Target | Evidence / timeframe |
+| --- | --- | --- | --- |
+| {Outcome indicator} | {Known value or TBD} | {Agreed target or TBD} | {Data source and when measured} |
+
+## Scope and boundaries
+
+- **In scope:** {Outcome or capability boundaries}
+- **Out of scope:** {Explicit exclusions}
+
+## Constraints and dependencies
+
+{Only material constraints or dependencies; otherwise state None identified.}

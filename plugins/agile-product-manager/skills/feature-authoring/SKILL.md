@@ -1,10 +1,35 @@
 ---
 name: feature-authoring
-description: "Create or update outcome-focused Features in Azure DevOps. Use when defining feature capability, scope, acceptance criteria, priority, size, or Epic parentage."
+description: "Define or update Azure DevOps Features that specify a capability to deliver—such as infrastructure, platform, or product functionality—and how it contributes to a parent Epic's strategic outcome."
 ---
 
 # Feature authoring
-**Trigger:** Create or update a Feature.
-Read `.github/agile-product-manager/ado-board-settings.md` first. For new Features, use `System.WorkItemType` and `System.State` from the `Feature Board Item` section. Use configured area/iteration defaults if valid for the Feature. Validate the type and state for the target project/process; ask for missing or invalid mappings rather than guessing.
 
-Ask new/update; retrieve existing item by ID on update. Establish parent Epic, user/platform capability, outcome, scope, affected consumers, boundaries, constraints, dependencies and verifiable completion. Draft `templates/feature.md` with 3–6 outcome-focused criteria; no task checklist. Verify parent ID and type. Ask priority/size when configured. Show complete Markdown draft, mappings and links; request explicit approval before publishing and re-read to verify. **Create/update a Feature work item, not an Epic.**
+## Purpose
+
+Define a capability that must be delivered to contribute to its parent Epic's strategic outcome. A capability may be infrastructure, platform, product functionality, or another coherent ability. A Feature describes what capability is needed and how it will be verified, not a list of implementation tasks.
+
+## Workflow
+
+1. Read `.github/agile-product-manager/ado-board-settings.md`. For a new Feature, use `System.WorkItemType` and `System.State` from the `Feature Board Item` section, plus configured area/iteration defaults when valid. Validate the mappings for the target project and process; ask if missing or invalid.
+2. Establish whether this is a new Feature or an update. For an update, retrieve the item by ID first and preserve existing content, fields, and links unless the user asks to change them.
+3. Identify and validate the parent Epic. Read its strategic outcome and measures. If there is no parent Epic, ask whether to select one or whether this Feature is intentionally standalone. Clarify:
+   - What capability is needed, and who or what will use it?
+   - What need or constraint does this capability address?
+   - How will delivering this capability contribute to the Epic's strategic outcome?
+   - What observable behavior or conditions will demonstrate that the capability is delivered?
+   - What is in scope or out of scope, and are there material dependencies or constraints?
+
+   Ask only questions needed to resolve material gaps. Do not invent requirements or claim the Feature alone proves the Epic's strategic outcome.
+4. Draft using `templates/feature.md`. State the capability and its contribution to the Epic near the top. Define 3–6 concise, verifiable acceptance criteria for the capability; keep implementation steps and task checklists out.
+5. Verify that each criterion describes observable capability behavior or an agreed delivery condition, and that the parent Epic link is valid.
+6. Show the title, capability, Epic contribution, scope, acceptance criteria, field mappings, and link changes. Ask for explicit approval of the exact draft before writing. Request approval again if the draft changes.
+7. On approval, create or update the Feature through `ado-board-items`, then re-read and verify the saved item and report its ID and URL. Report errors and partial outcomes clearly.
+
+## Guardrails
+
+- Keep the Feature focused on one coherent capability, whether infrastructure, platform, or product functionality.
+- Express what capability is needed, not a preferred design or an implementation plan, unless a technical constraint is required.
+- Keep Feature acceptance criteria distinct from the parent Epic's strategic success measures.
+- Ask for priority or size only when configured for Features; never infer them.
+- Never silently change existing state, type, or content. Follow the ADO skill's approval and write-safety requirements.
